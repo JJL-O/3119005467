@@ -28,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1xocTLewejW6myf6nr4et9FNNmM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\软件工程作业\个人项目作业\src\Util" />
       <recent name="D:\java\第一次个人项目\src" />
       <recent name="D:\java\第一次个人项目\src\Util" />
     </key>
@@ -134,6 +138,7 @@
       <workItem from="1631452922277" duration="4890000" />
       <workItem from="1631500067589" duration="4076000" />
       <workItem from="1631522070868" duration="9735000" />
+      <workItem from="1631541175761" duration="609000" />
     </task>
     <servers />
   </component>
