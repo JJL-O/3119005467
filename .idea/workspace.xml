@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a060f46f-47f8-47aa-8eb4-8db6f2070e92" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xocTLewejW6myf6nr4et9FNNmM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\第一次个人项目\src" />
+      <recent name="D:\java\第一次个人项目\src\Util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TextChecking">
+    <configuration name="HanlpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HanlpTest" />
+      <module name="第一次个人项目" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimHash" />
+      <module name="第一次个人项目" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="第一次个人项目" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextChecking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.TextChecking" />
+      <module name="第一次个人项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextChecking.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="第一次个人项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.TextChecking" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TextChecking" />
+        <item itemvalue="JUnit.TextChecking.test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SimHash" />
+        <item itemvalue="Application.HanlpTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a060f46f-47f8-47aa-8eb4-8db6f2070e92" name="默认更改列表" comment="" />
+      <created>1631024887863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631024887863</updated>
+      <workItem from="1631024891486" duration="664000" />
+      <workItem from="1631110015594" duration="2117000" />
+      <workItem from="1631112786943" duration="105000" />
+      <workItem from="1631257221914" duration="71000" />
+      <workItem from="1631338175176" duration="14442000" />
+      <workItem from="1631369141157" duration="7661000" />
+      <workItem from="1631452922277" duration="4890000" />
+      <workItem from="1631500067589" duration="4076000" />
+      <workItem from="1631522070868" duration="9735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1101" y="311" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1631344447140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1101" y="311" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631344447140" />
+    <state x="323" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1631344843434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="323" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631344843434" />
+    <state x="687" y="181" key="#项目结构" timestamp="1631540146669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="181" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1631540146669" />
+    <state x="1081" y="250" key="FileChooserDialogImpl" timestamp="1631501471405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1081" y="250" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631501471405" />
+    <state width="1323" height="165" key="GridCell.Tab.0.bottom" timestamp="1631537322074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631537322074" />
+    <state width="1323" height="165" key="GridCell.Tab.0.center" timestamp="1631537322074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631537322074" />
+    <state width="1323" height="165" key="GridCell.Tab.0.left" timestamp="1631537322074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631537322074" />
+    <state width="1323" height="165" key="GridCell.Tab.0.right" timestamp="1631537322074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631537322074" />
+    <state width="914" height="341" key="GridCell.Tab.1.bottom" timestamp="1631466640758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
+    <state width="914" height="341" key="GridCell.Tab.1.center" timestamp="1631466640758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
+    <state width="914" height="341" key="GridCell.Tab.1.left" timestamp="1631466640758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
+    <state width="914" height="341" key="GridCell.Tab.1.right" timestamp="1631466640758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
+    <state x="104" y="189" key="SettingsEditor" timestamp="1631367401504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="104" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631367401504" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631500067708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631500067708" />
+    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631343984583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1631343984583" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631524841040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631524841040" />
+  </component>
+</project>
