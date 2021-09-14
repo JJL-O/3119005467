@@ -3,50 +3,62 @@ package Util;
 import java.io.*;
 
 public class TextIOUtil {
-  /**
-   * @Description: 读取Path下的文件
-   * @Author LJJ
-   * @param Path（文件路径）
-   * @return 文件内容
-   * @Version 1.0
-   */
-    public static String readTxt(String Path) throws IOException {
+    /**
+     * @param Path（文件路径）
+     * @return 文件内容
+     * @Description: 读取Path下的文件
+     * @Author LJJ
+     * @Version 1.0
+     */
+    public static String readTxt(String Path) {
 
 
         BufferedReader bufferedReader = null;
         FileInputStream fileInputStream = null;
-        StringBuilder inputSB = null;
+        StringBuilder inputStringBuilder = null;
 
         try {
             fileInputStream = new FileInputStream(Path);
             bufferedReader = new BufferedReader(new InputStreamReader(fileInputStream, "UTF-8"));
 
-            inputSB = new StringBuilder();
+            inputStringBuilder = new StringBuilder();
             String line = bufferedReader.readLine();
 
             while (line != null) {                                                                                      //进行字符串的拼接
-                inputSB.append(line);
+                inputStringBuilder.append(line);
                 line = bufferedReader.readLine();
                 if (line != null) {
-                    inputSB.append("\n");
+                    inputStringBuilder.append("\n");
                 }
             }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
+
             bufferedReader.close();                                                                                     //关闭资源
             fileInputStream.close();
+        } catch (NullPointerException | FileNotFoundException | UnsupportedEncodingException e) {                       //进行简易的异常处理，当文件名不存在时输出相应提示
+            System.out.println("路径不存在，请检查文件路径");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+
+                bufferedReader.close();                                                                                 //关闭资源
+                fileInputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
-        return inputSB.toString();
+        assert inputStringBuilder != null;
+        return inputStringBuilder.toString();
     }
 
-/**
- * @Description: 将similarity输出到txt文件中
- * @Author LJJ
- * @param  similarity（相似度）
- * @param txtPath(文件路径）
- * @Version 1.0
- */
+    /**
+     * @param similarity（相似度）
+     * @param txtPath(文件路径）
+     * @Description: 将similarity输出到txt文件中
+     * @Author LJJ
+     * @Version 1.0
+     */
     public static void writeTxt(String similarity, String txtPath) {
 
         try {

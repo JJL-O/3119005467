@@ -45,11 +45,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/软件工程/个人项目作业/PaperCheck-master" />
+    <property name="last_opened_file_path" value="D:/Software/jprofiler12/bin/jprofiler.exe" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -140,6 +140,10 @@
       <workItem from="1631522070868" duration="9735000" />
       <workItem from="1631541175761" duration="3875000" />
       <workItem from="1631603944945" duration="6678000" />
+      <workItem from="1631620592627" duration="1975000" />
+      <workItem from="1631622602798" duration="1784000" />
+      <workItem from="1631624415463" duration="2542000" />
+      <workItem from="1631627507283" duration="5218000" />
     </task>
     <servers />
   </component>
@@ -155,30 +159,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="323" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631344843434" />
+    <state x="812" y="380" key="#com.intellij.tools.ToolEditorDialog" timestamp="1631623798047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="812" y="380" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631623798047" />
     <state x="687" y="181" key="#项目结构" timestamp="1631604207800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="181" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1631604207800" />
-    <state x="1081" y="250" key="FileChooserDialogImpl" timestamp="1631610139792">
+    <state x="1081" y="250" key="FileChooserDialogImpl" timestamp="1631627561839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1081" y="250" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631610139792" />
-    <state width="1877" height="165" key="GridCell.Tab.0.bottom" timestamp="1631610786316">
+    <state x="1081" y="250" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631627561839" />
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1631645925354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631610786316" />
-    <state width="1877" height="165" key="GridCell.Tab.0.center" timestamp="1631610786316">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631645925354" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1631645925354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631610786316" />
-    <state width="1877" height="165" key="GridCell.Tab.0.left" timestamp="1631610786315">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631645925354" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1631645925354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631610786315" />
-    <state width="1877" height="165" key="GridCell.Tab.0.right" timestamp="1631610786316">
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631645925354" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1631645925354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631610786316" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631645925354" />
     <state width="914" height="341" key="GridCell.Tab.1.bottom" timestamp="1631466640758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,21 +203,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
-    <state x="104" y="189" key="SettingsEditor" timestamp="1631367401504">
+    <state x="550" y="195" width="998" height="712" key="SettingsEditor" timestamp="1631627629027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="104" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631367401504" />
-    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631604132947">
+    <state x="550" y="195" width="998" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631627629027" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631627511548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631604132947" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631627511548" />
     <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631343984583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1631343984583" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1631629439441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631629439441" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631524841040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631524841040" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$TextChecking.ic" NAME="TextChecking Coverage Results" MODIFIED="1631627713410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Main.*</FILTER>
+    </SUITE>
   </component>
 </project>
