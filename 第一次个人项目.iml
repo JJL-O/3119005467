@@ -25,15 +25,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/软件工程/个人项目作业/hanlp/hanlp-solr-plugin-1.1.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library name="JUnit4">
         <CLASSES>

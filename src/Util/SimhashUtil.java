@@ -25,9 +25,9 @@ public class SimhashUtil {
         //Java利用MessageDigest获取Hashcode(此程序使用MD5算法）
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-            byte[] inputByteArray = str.getBytes(StandardCharsets.UTF_8);         //将输入的字符串根据UTF-8标准转换为字节数组
+            byte[] inputByteArray = str.getBytes(StandardCharsets.UTF_8);                                               //将输入的字符串根据UTF-8标准转换为字节数组
 
-            return new BigInteger(1, messageDigest.digest(inputByteArray)).toString(2);  //以二进制方式输出
+            return new BigInteger(1, messageDigest.digest(inputByteArray)).toString(2);                    //以二进制方式输出
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -53,6 +53,7 @@ public class SimhashUtil {
         List<String> extractKeywordList = HanLP.extractKeyword(str, str.length());//提取出所有的关键词
 
         //2、获取该字符串的HashCode
+
         for (String keyword : extractKeywordList) {
             StringBuilder keywordHash = new StringBuilder(getHash(keyword));
 
@@ -68,16 +69,16 @@ public class SimhashUtil {
 
             //3、加权，按照每个元素的权重形成加权数字串
             for (int j = 0; j < vector.length; j++) {
-                if (keywordHash.charAt(j) =='1') {                                     //通过词频进行加权
-                    vector[index]+=fluency;
+                if (keywordHash.charAt(j) == '1') {                                    //通过词频进行加权
+                    vector[j] += (10 - fluency / (extractKeywordList.size() / 10));    //不能直接使用词频作为加权值（有些权值会超过个位数，最终造成数组越界的错误），因此处理如下
                 } else {
-                    vector[index]-=fluency;
+                    vector[j] -= (10 - fluency / (extractKeywordList.size() / 10));
                 }
             }
             index++;
         }
         //4、降维，形成SimHash签名
-           StringBuilder SimHash = new StringBuilder();                                //接收生成的SimHash
+        StringBuilder SimHash = new StringBuilder();                                     //接收生成的SimHash
 
         for (int i : vector) {
             if (i > 0) {
@@ -87,6 +88,6 @@ public class SimhashUtil {
             }
 
         }
-           return SimHash.toString();
+        return SimHash.toString();
     }
 }

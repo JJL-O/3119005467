@@ -18,10 +18,11 @@ public class HammingUtil {
         //对两组simHash进行逐位比较
         int HammingDistance = 0;
         for (int i = 0; i < simHash0.length(); i++) {
-            if (simHash0.charAt(i) != simHash1.charAt(i))
+            if (simHash0.charAt(i) != simHash1.charAt(i)) {
                 HammingDistance++;
+            }
         }
-        return HammingDistance;                                                //返回有差异的位数（HammingDiStance）
+        return HammingDistance;                                                                                         //返回有差异的位数（HammingDiStance）
 
 
     }
@@ -44,13 +45,13 @@ public class HammingUtil {
 
     }
 
-/**
- * @Description: 传入一个浮点数，以百分比的形式打印
- * @Author LJJ
- * @param point(需要转换的浮点数）
- * @return String（百分比）
- * @Version 1.0
- */
+    /**
+     * @param point(需要转换的浮点数）
+     * @return String（百分比）
+     * @Description: 传入一个浮点数，以百分比的形式打印
+     * @Author LJJ
+     * @Version 1.0
+     */
     public static String pointToPercent(double point) {
 
         //获取格式化对象
@@ -61,6 +62,7 @@ public class HammingUtil {
 
         String percent = numberFormat.format(point);
 
+        System.out.println(percent);
         return percent;
     }
 
