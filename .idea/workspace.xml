@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="第一次个人项目:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a060f46f-47f8-47aa-8eb4-8db6f2070e92" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +36,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="TextCheckingTest" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectId" id="1xocTLewejW6myf6nr4et9FNNmM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Software/jprofiler12/bin/jprofiler.exe" />
+    <property name="last_opened_file_path" value="D:/软件工程/个人项目作业/PaperCheck-master" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -58,31 +68,12 @@
       <recent name="D:\java\第一次个人项目\src\Util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextChecking">
-    <configuration name="HanlpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HanlpTest" />
-      <module name="第一次个人项目" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimHash" />
-      <module name="第一次个人项目" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="第一次个人项目" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextChecking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TextCheckingTest">
+    <configuration name="TextChecking" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.TextChecking" />
       <module name="第一次个人项目" />
+      <option name="PROGRAM_PARAMETERS" value="D:\软件工程\个人项目作业\测试文本\orig.txt D:\软件工程\个人项目作业\测试文本\orig_0.8_add.txt D:\软件工程\个人项目作业\测试文本\similarity.txt " />
+      <option name="INPUT_FILE" value="D:/软件工程/个人项目作业/测试文本/orig.txt D:/软件工程/个人项目作业/测试文本/orig_0.8_add D:/软件工程/个人项目作业/测试文本/ansall.txt.txt " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main.*" />
@@ -93,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextChecking.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextCheckingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="第一次个人项目" />
       <extension name="coverage">
         <pattern>
@@ -102,20 +93,91 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Main" />
-      <option name="MAIN_CLASS_NAME" value="Main.TextChecking" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextCheckingTest.noExistPathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="第一次个人项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="METHOD_NAME" value="noExistPathTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextCheckingTest.origAndOrigAddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="第一次个人项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="METHOD_NAME" value="origAndOrigAddTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextCheckingTest.origAndOrigDelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="第一次个人项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="METHOD_NAME" value="origAndOrigDelTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextCheckingTest.origAndOrig_0_8DelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="第一次个人项目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="METHOD_NAME" value="origAndOrig_0_8DelTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TextChecking" />
+      <item itemvalue="JUnit.TextCheckingTest" />
+      <item itemvalue="JUnit.TextCheckingTest.noExistPathTest" />
+      <item itemvalue="JUnit.TextCheckingTest.origAndOrigAddTest" />
+      <item itemvalue="JUnit.TextCheckingTest.origAndOrig_0_8DelTest" />
+      <item itemvalue="JUnit.TextCheckingTest.origAndOrigDelTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TextChecking" />
-        <item itemvalue="JUnit.TextChecking.test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SimHash" />
-        <item itemvalue="Application.HanlpTest" />
+        <item itemvalue="JUnit.TextCheckingTest" />
+        <item itemvalue="JUnit.TextCheckingTest.origAndOrigDelTest" />
+        <item itemvalue="JUnit.TextCheckingTest.origAndOrig_0_8DelTest" />
+        <item itemvalue="JUnit.TextCheckingTest.origAndOrigAddTest" />
+        <item itemvalue="JUnit.TextCheckingTest.noExistPathTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +206,12 @@
       <workItem from="1631622602798" duration="1784000" />
       <workItem from="1631624415463" duration="2542000" />
       <workItem from="1631627507283" duration="5218000" />
+      <workItem from="1631680087463" duration="679000" />
+      <workItem from="1631704790099" duration="12400000" />
+      <workItem from="1631718068201" duration="1016000" />
+      <workItem from="1631719157493" duration="30000" />
+      <workItem from="1631719253196" duration="816000" />
+      <workItem from="1631721022438" duration="470000" />
     </task>
     <servers />
   </component>
@@ -155,70 +223,82 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1101" y="311" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631344447140" />
+    <state x="318" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631719181798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="318" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631719181798" />
+    <state x="726" y="186" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1631715962066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="186" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631715962066" />
     <state x="323" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1631344843434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="323" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631344843434" />
+    <state x="275" y="446" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1631718137542">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="275" y="446" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631718137542" />
     <state x="812" y="380" key="#com.intellij.tools.ToolEditorDialog" timestamp="1631623798047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="380" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631623798047" />
-    <state x="687" y="181" key="#项目结构" timestamp="1631604207800">
+    <state x="687" y="181" key="#项目结构" timestamp="1631719332235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="181" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1631604207800" />
-    <state x="1081" y="250" key="FileChooserDialogImpl" timestamp="1631627561839">
+    <state x="687" y="181" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1631719332235" />
+    <state x="1081" y="250" key="FileChooserDialogImpl" timestamp="1631714779033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1081" y="250" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631627561839" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1631645925354">
+    <state x="1081" y="250" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631714779033" />
+    <state width="1489" height="9" key="GridCell.Tab.0.bottom" timestamp="1631721492550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631645925354" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1631645925354">
+    <state width="1489" height="9" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631721492550" />
+    <state width="1489" height="9" key="GridCell.Tab.0.center" timestamp="1631721492550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631645925354" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1631645925354">
+    <state width="1489" height="9" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631721492550" />
+    <state width="1489" height="9" key="GridCell.Tab.0.left" timestamp="1631721492550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631645925354" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1631645925354">
+    <state width="1489" height="9" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631721492550" />
+    <state width="1489" height="9" key="GridCell.Tab.0.right" timestamp="1631721492550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631645925354" />
-    <state width="914" height="341" key="GridCell.Tab.1.bottom" timestamp="1631466640758">
+    <state width="1489" height="9" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631721492550" />
+    <state width="1489" height="9" key="GridCell.Tab.1.bottom" timestamp="1631712831862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
-    <state width="914" height="341" key="GridCell.Tab.1.center" timestamp="1631466640758">
+    <state width="1489" height="9" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631712831862" />
+    <state width="1489" height="9" key="GridCell.Tab.1.center" timestamp="1631712831862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
-    <state width="914" height="341" key="GridCell.Tab.1.left" timestamp="1631466640758">
+    <state width="1489" height="9" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631712831862" />
+    <state width="1489" height="9" key="GridCell.Tab.1.left" timestamp="1631712831862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
-    <state width="914" height="341" key="GridCell.Tab.1.right" timestamp="1631466640758">
+    <state width="1489" height="9" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631712831862" />
+    <state width="1489" height="9" key="GridCell.Tab.1.right" timestamp="1631712831862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631466640758" />
-    <state x="550" y="195" width="998" height="712" key="SettingsEditor" timestamp="1631627629027">
+    <state width="1489" height="9" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631712831862" />
+    <state x="645" y="177" width="998" height="718" key="SettingsEditor" timestamp="1631718150422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="195" width="998" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631627629027" />
-    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631627511548">
+    <state x="645" y="177" width="998" height="718" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631718150422" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631721027946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631627511548" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631721027946" />
     <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631343984583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1631343984583" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1631629439441">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1631707354494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631629439441" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631707354494" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631524841040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
