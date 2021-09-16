@@ -17,27 +17,18 @@ import java.util.stream.Collectors;
  */
 public class TextCheckingTest {
 
-//    @Test
-//    public void test(){
-//         String str0 = TextIOUtil.readTxt("D:\\软件工程\\个人项目作业\\测试文本\\orig.txt");
-//         String str1 = TextIOUtil.readTxt("D:\\软件工程\\个人项目作业\\测试文本\\orig_0.8_add.txt");
-//
-//
-//        System.out.println(StandardTokenizer.segment(str0).stream().map(term -> term.word).collect(Collectors.toList()));
-//
-//
-//    }
-    @Test
-    public void noExistPathTest() {
-        try {
-            String str0 = TextIOUtil.readTxt("D:\\软件工程\\个人项目作业\\测试文本\\orignoexistpath.txt");
-            String str1 = TextIOUtil.readTxt("D:\\软件工程\\个人项目作业\\测试文本\\orig_0.8_add.txt");
 
-            String similarity = HammingUtil.getSimilarity(SimhashUtil.getSimhash(str0), SimhashUtil.getSimhash(str1));
-            TextIOUtil.writeTxt("orig与orig_0.8_add的相似度为" + similarity, "D:\\软件工程\\个人项目作业\\测试文本\\similarity.txt");
-        } catch (Exception e) {
-        }
-    }
+//    @Test
+//    public void noExistPathTest() {
+//        try {
+//            String str0 = TextIOUtil.readTxt("D:\\软件工程\\个人项目作业\\测试文本\\orignoexistpath.txt");
+//            String str1 = TextIOUtil.readTxt("D:\\软件工程\\个人项目作业\\测试文本\\orig_0.8_add.txt");
+//
+//            String similarity = HammingUtil.getSimilarity(SimhashUtil.getSimhash(str0), SimhashUtil.getSimhash(str1));
+//            TextIOUtil.writeTxt("orig与orig_0.8_add的相似度为" + similarity, "D:\\软件工程\\个人项目作业\\测试文本\\similarity.txt");
+//        } catch (Exception e) {
+//        }
+//    }
 
     //
     @Test

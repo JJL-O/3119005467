@@ -4,15 +4,10 @@ import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.seg.common.Term;
 import com.hankcs.hanlp.tokenizer.StandardTokenizer;
 
-import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class SimhashUtil {
@@ -54,13 +49,9 @@ public class SimhashUtil {
 
         //1、分词（为了简化分词过程使用了HanLP提供的接口）
         List<Term> termList = StandardTokenizer.segment(str);
-        List<String> KeywordList = termList.stream().map(term -> term.word).collect(Collectors.toList());               //提取出所有词
+        List<String> wordList = termList.stream().map(term -> term.word).collect(Collectors.toList());                  //提取出所有词
 
-
-        List<String> extractKeywordList=HanLP.extractKeyword(str,str.length());                                         //提取关键词
-
-
-        //2、获取该字符串的HashCode
+        List<String> extractKeywordList = HanLP.extractKeyword(str, str.length());                                      //提取关键词
 
         for (String keyword : extractKeywordList) {
             StringBuilder keywordHash = new StringBuilder(getHash(keyword));
@@ -73,15 +64,15 @@ public class SimhashUtil {
             }                                                                                                           //若该hashCode位不足128位，在低位用0补齐
 
             //计算词频
-            int fluency = Collections.frequency(KeywordList, keyword);                                                  //返回关键词在所有词中的次数作为词频
+            int fluency = Collections.frequency(wordList, keyword);                                                      //一个词在文章中出现的总次数
 
 
             //3、加权并合并，按照每个元素的权重形成加权数字串
             for (int j = 0; j < vector.length; j++) {
-                if (keywordHash.charAt(j) == '1') {                                                                     //通过词频进行加权
-                    vector[j] += (10 - fluency / (extractKeywordList.size() / 10));                                     //不能直接使用词频作为加权值（有些权值会超过个位数，最终造成数组越界的错误），因此处理如下
+                if (keywordHash.charAt(j) == '1') {                                                                     //通过词频（fluency/文本中总词数）进行加权
+                    vector[j] += 10 - fluency / (wordList.size() / 10);                                                 //不能直接使用词频作为加权值（有些权值会超过个位数，最终造成数组越界的错误），因此处理如下
                 } else {
-                    vector[j] -= (10 - fluency / (extractKeywordList.size() / 10));
+                    vector[j] -= 10 - fluency / (wordList.size() / 10);
                 }
             }
             index++;
