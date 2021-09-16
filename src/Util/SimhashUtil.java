@@ -1,6 +1,8 @@
 package Util;
 
 import com.hankcs.hanlp.HanLP;
+import com.hankcs.hanlp.seg.common.Term;
+import com.hankcs.hanlp.tokenizer.StandardTokenizer;
 
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
@@ -11,6 +13,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class SimhashUtil {
     /**
@@ -50,7 +53,12 @@ public class SimhashUtil {
         int index = 0;            //作为循环的索引
 
         //1、分词（为了简化分词过程使用了HanLP提供的接口）
-        List<String> extractKeywordList = HanLP.extractKeyword(str, str.length());//提取出所有的关键词
+        List<Term> termList = StandardTokenizer.segment(str);
+        List<String> KeywordList = termList.stream().map(term -> term.word).collect(Collectors.toList());               //提取出所有词
+
+
+        List<String> extractKeywordList=HanLP.extractKeyword(str,str.length());                                         //提取关键词
+
 
         //2、获取该字符串的HashCode
 
@@ -65,7 +73,8 @@ public class SimhashUtil {
             }                                                                                                           //若该hashCode位不足128位，在低位用0补齐
 
             //计算词频
-            int fluency = Collections.frequency(extractKeywordList, keyword);                                           //由于测试文本字数不多，加权值可视为目标词在测试文本中出现的次数（需经过处理）
+            int fluency = Collections.frequency(KeywordList, keyword);                                                  //返回关键词在所有词中的次数作为词频
+
 
             //3、加权并合并，按照每个元素的权重形成加权数字串
             for (int j = 0; j < vector.length; j++) {
@@ -91,4 +100,6 @@ public class SimhashUtil {
         }
         return Simhash.toString();
     }
+
+
 }

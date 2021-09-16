@@ -12,6 +12,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -55,11 +58,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/软件工程/个人项目作业/PaperCheck-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hanlp-portable-1.3.2.jar!/" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +79,7 @@
       <option name="INPUT_FILE" value="D:/软件工程/个人项目作业/测试文本/orig.txt D:/软件工程/个人项目作业/测试文本/orig_0.8_add D:/软件工程/个人项目作业/测试文本/ansall.txt.txt " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +91,12 @@
       <module name="第一次个人项目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Main" />
-      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="PACKAGE_NAME" value="Util" />
+      <option name="MAIN_CLASS_NAME" value="Util.TextCheckingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,12 +106,12 @@
       <module name="第一次个人项目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Main" />
-      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="PACKAGE_NAME" value="Util" />
+      <option name="MAIN_CLASS_NAME" value="Util.TextCheckingTest" />
       <option name="METHOD_NAME" value="noExistPathTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -119,12 +122,12 @@
       <module name="第一次个人项目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Main" />
-      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="PACKAGE_NAME" value="Util" />
+      <option name="MAIN_CLASS_NAME" value="Util.TextCheckingTest" />
       <option name="METHOD_NAME" value="origAndOrigAddTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -135,29 +138,29 @@
       <module name="第一次个人项目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Main" />
-      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
+      <option name="PACKAGE_NAME" value="Util" />
+      <option name="MAIN_CLASS_NAME" value="Util.TextCheckingTest" />
       <option name="METHOD_NAME" value="origAndOrigDelTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextCheckingTest.origAndOrig_0_8DelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextCheckingTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="第一次个人项目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Main" />
-      <option name="MAIN_CLASS_NAME" value="Main.TextCheckingTest" />
-      <option name="METHOD_NAME" value="origAndOrig_0_8DelTest" />
+      <option name="PACKAGE_NAME" value="Util" />
+      <option name="MAIN_CLASS_NAME" value="Util.TextCheckingTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,18 +169,18 @@
     <list>
       <item itemvalue="Application.TextChecking" />
       <item itemvalue="JUnit.TextCheckingTest" />
-      <item itemvalue="JUnit.TextCheckingTest.noExistPathTest" />
-      <item itemvalue="JUnit.TextCheckingTest.origAndOrigAddTest" />
-      <item itemvalue="JUnit.TextCheckingTest.origAndOrig_0_8DelTest" />
       <item itemvalue="JUnit.TextCheckingTest.origAndOrigDelTest" />
+      <item itemvalue="JUnit.TextCheckingTest.test" />
+      <item itemvalue="JUnit.TextCheckingTest.origAndOrigAddTest" />
+      <item itemvalue="JUnit.TextCheckingTest.noExistPathTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TextCheckingTest" />
-        <item itemvalue="JUnit.TextCheckingTest.origAndOrigDelTest" />
-        <item itemvalue="JUnit.TextCheckingTest.origAndOrig_0_8DelTest" />
         <item itemvalue="JUnit.TextCheckingTest.origAndOrigAddTest" />
         <item itemvalue="JUnit.TextCheckingTest.noExistPathTest" />
+        <item itemvalue="JUnit.TextCheckingTest.origAndOrigDelTest" />
+        <item itemvalue="JUnit.TextCheckingTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +215,9 @@
       <workItem from="1631719157493" duration="30000" />
       <workItem from="1631719253196" duration="816000" />
       <workItem from="1631721022438" duration="470000" />
+      <workItem from="1631722103133" duration="8522000" />
+      <workItem from="1631767067226" duration="589000" />
+      <workItem from="1631767715284" duration="388000" />
     </task>
     <servers />
   </component>
@@ -223,10 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1101" y="311" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631344447140" />
-    <state x="318" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631719181798">
+    <state x="828" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631723452352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="318" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631719181798" />
+    <state x="828" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631723452352" />
     <state x="726" y="186" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1631715962066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -239,62 +245,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="446" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631718137542" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1631767804040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631767804040" />
     <state x="812" y="380" key="#com.intellij.tools.ToolEditorDialog" timestamp="1631623798047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="380" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631623798047" />
-    <state x="687" y="181" key="#项目结构" timestamp="1631719332235">
+    <state x="545" y="214" key="#项目结构" timestamp="1631767156487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="181" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1631719332235" />
-    <state x="1081" y="250" key="FileChooserDialogImpl" timestamp="1631714779033">
+    <state x="545" y="214" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1631767156487" />
+    <state x="1081" y="250" key="FileChooserDialogImpl" timestamp="1631767927825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1081" y="250" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631714779033" />
-    <state width="1489" height="9" key="GridCell.Tab.0.bottom" timestamp="1631721492550">
+    <state x="1081" y="250" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631767927825" />
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1631768106478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1489" height="9" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631721492550" />
-    <state width="1489" height="9" key="GridCell.Tab.0.center" timestamp="1631721492550">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631768106478" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1631768106478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1489" height="9" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631721492550" />
-    <state width="1489" height="9" key="GridCell.Tab.0.left" timestamp="1631721492550">
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631768106478" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1631768106478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1489" height="9" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631721492550" />
-    <state width="1489" height="9" key="GridCell.Tab.0.right" timestamp="1631721492550">
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631768106478" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1631768106478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1489" height="9" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631721492550" />
-    <state width="1489" height="9" key="GridCell.Tab.1.bottom" timestamp="1631712831862">
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631768106478" />
+    <state width="1489" height="335" key="GridCell.Tab.1.bottom" timestamp="1631731310818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1489" height="9" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631712831862" />
-    <state width="1489" height="9" key="GridCell.Tab.1.center" timestamp="1631712831862">
+    <state width="1489" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631731310818" />
+    <state width="1489" height="335" key="GridCell.Tab.1.center" timestamp="1631731310817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1489" height="9" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631712831862" />
-    <state width="1489" height="9" key="GridCell.Tab.1.left" timestamp="1631712831862">
+    <state width="1489" height="335" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631731310817" />
+    <state width="1489" height="335" key="GridCell.Tab.1.left" timestamp="1631731310817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1489" height="9" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631712831862" />
-    <state width="1489" height="9" key="GridCell.Tab.1.right" timestamp="1631712831862">
+    <state width="1489" height="335" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631731310817" />
+    <state width="1489" height="335" key="GridCell.Tab.1.right" timestamp="1631731310817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1489" height="9" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631712831862" />
-    <state x="645" y="177" width="998" height="718" key="SettingsEditor" timestamp="1631718150422">
+    <state width="1489" height="335" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631731310817" />
+    <state x="645" y="177" width="998" height="718" key="SettingsEditor" timestamp="1631768028051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="177" width="998" height="718" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631718150422" />
-    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631721027946">
+    <state x="645" y="177" width="998" height="718" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631768028051" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631767715449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631721027946" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631767715449" />
     <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631343984583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1631343984583" />
+    <state x="342" y="145" width="1228" height="738" key="dock-window-1" timestamp="1631729970242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="145" width="1228" height="738" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1631729970242" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1631707354494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -305,7 +319,13 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631524841040" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/$TextChecking.ic" NAME="TextChecking Coverage Results" MODIFIED="1631627713410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/$TextCheckingTest.ic" NAME="TextCheckingTest Coverage Results" MODIFIED="1631768080155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Util.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/$TextCheckingTest_origAndOrigAddTest.ic" NAME="TextCheckingTest.origAndOrigAddTest Coverage Results" MODIFIED="1631768070045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Util.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/$TextChecking.ic" NAME="TextChecking Coverage Results" MODIFIED="1631723540299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Main.*</FILTER>
     </SUITE>
   </component>
